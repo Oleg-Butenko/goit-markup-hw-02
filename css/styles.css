@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -16,7 +16,7 @@ ul {
   list-style-type: none;
 }
 
-.header .logo {
+.logo {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.header .logo-part {
+.logo-part {
   color: #4d5ae5;
 }
 
@@ -56,6 +56,7 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
   text-align: center;
+  cursor: pointer;
 }
 
 .section-title {
@@ -65,4 +66,28 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
